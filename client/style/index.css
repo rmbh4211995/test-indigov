@@ -39,32 +39,32 @@ h1 {
     font-size: 20px;
 }
 
-button, input {
-    padding: 4px;
-    border: 1px solid var(--disabled-color);
-}
+/*button, input {*/
+/*    padding: 4px;*/
+/*    border: 1px solid var(--disabled-color);*/
+/*}*/
 
-button {
-    outline: none;
-    background: transparent;
-    border-radius: 5px;
-    color: var(--primary-color);
-    transition: all ease 0.8s;
-    cursor: pointer;
-}
+/*button {*/
+/*    outline: none;*/
+/*    background: transparent;*/
+/*    border-radius: 5px;*/
+/*    color: var(--primary-color);*/
+/*    transition: all ease 0.8s;*/
+/*    cursor: pointer;*/
+/*}*/
 
-button.active {
-    color: var(--primary-color);
-}
+/*button.active {*/
+/*    color: var(--primary-color);*/
+/*}*/
 
-button.active:after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    padding-top: 4px;
-    border-bottom: 1px solid var(--primary-color);
-}
+/*button.active:after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    margin: 0 auto;*/
+/*    width: 50%;*/
+/*    padding-top: 4px;*/
+/*    border-bottom: 1px solid var(--primary-color);*/
+/*}*/
 
 input:focus {
     outline: none;
@@ -85,4 +85,32 @@ select {
     max-width: 400px;
     text-align: center;
     padding: 20px 0;
+}
+
+.paginated-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.ticket {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.ticket > .msg {
+    font-size: 24px;
+}
+
+.ticket > .name {
+    color: rgb(62, 100, 255);
+    margin-right: 20px;
+}
+
+.ticket > .status {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
 }

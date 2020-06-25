@@ -8,7 +8,9 @@
     "dev": "nodemon server/index.js"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.2.1",
+    "cors": "^2.8.5",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "file-loader": "^5.1.0",

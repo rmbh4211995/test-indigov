@@ -1,9 +1,9 @@
 import React from "react";
-import Homepage from "./pages/Homepage";
+import HomeContainer from "./containers/HomeContainer";
 
 const App = () => {
     return (
-        <Homepage />
+        <HomeContainer />
     );
 };
 
